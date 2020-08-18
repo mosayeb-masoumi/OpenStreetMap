@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <org.osmdroid.views.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical"
+        tools:ignore="RtlCompat">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_myLocation"
+            android:layout_marginTop="3dp"
+            android:textSize="12sp"
+            android:text="@string/my_location"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/enable_rotation"
+            android:layout_marginTop="3dp"
+            android:textSize="12sp"
+            android:text="enable_rotation"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addCompass"
+            android:layout_marginTop="3dp"
+            android:textSize="12sp"
+            android:text="add compass"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addScalebar"
+            android:layout_marginTop="3dp"
+            android:textSize="12sp"
+            android:text="addScalebar"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/showListOfMarkers"
+            android:layout_marginTop="3dp"
+            android:textSize="12sp"
+            android:text="show markerS"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setIran"
+            android:layout_marginTop="3dp"
+            android:textSize="12sp"
+            android:text="set iran"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
